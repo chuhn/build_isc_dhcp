@@ -1,0 +1,5 @@
+opennetadmin-plugin-build-isc-dhcp (1.5+20151030.c72af97-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Christopher Huhn, GSI <C.Huhn@gsi.de>  Mon, 27 Nov 2017 11:39:36 +0100
