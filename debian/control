@@ -4,12 +4,15 @@ Priority: optional
 Maintainer: Christopher Huhn, GSI <C.Huhn@gsi.de>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.8
-Homepage: <insert the upstream URL, if relevant>
+Homepage: https://github.com/opennetadmin/build_isc_dhcp
 #Vcs-Git: https://anonscm.debian.org/collab-maint/opennetadmin-plugin-build-isc-dhcp.git
 #Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/opennetadmin-plugin-build-isc-dhcp.git
 
 Package: opennetadmin-plugin-build-isc-dhcp
 Architecture: all
-Depends: ${misc:Depends}, opennetadmin, ruby-opennetadmin
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: ${misc:Depends}, opennetadmin
+Description: generates config for ISC dhcpd from opennetadmin
+ This is the module that will enable the ability to extract and build
+ ISC DHCP server configurations from the database.
+ It will output the configuration text that would normally be located
+ in something like /etc/dhcpd.conf or similar.
