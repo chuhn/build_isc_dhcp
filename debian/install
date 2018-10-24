@@ -1,2 +1,3 @@
 build_dhcpd             usr/bin
 build_isc_dhcp.inc.php  usr/share/opennetadmin/plugins/build_isc_dhcp
+plugin_info.php         usr/share/opennetadmin/plugins/build_isc_dhcp
