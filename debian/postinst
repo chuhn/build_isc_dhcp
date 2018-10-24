@@ -23,11 +23,11 @@ ONA="ona.rb -u http://localhost/opennetadmin/dcm.php -l admin -p admin"
 case "$1" in
     configure)
         
-        # add the module to the list of modules
-        ona.rb -u http://localhost/opennetadmin/dcm.php -l admin -p admin -r add_module \
-               name=build_dhcpd_conf \
-               file=../plugins/build_isc_dhcp/build_isc_dhcp.inc.php \
-               desc='Build ISC DHCP server configuration'
+        # # add the module to the list of modules
+        # ona.rb -u http://localhost/opennetadmin/dcm.php -l admin -p admin -r add_module \
+        #        name=build_dhcpd_conf \
+        #        file=../plugins/build_isc_dhcp/build_isc_dhcp.inc.php \
+        #        desc='Build ISC DHCP server configuration'
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
