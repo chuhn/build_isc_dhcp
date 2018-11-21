@@ -24,6 +24,5 @@ export DH_VERBOSE = 1
 #	dh_auto_configure -- #	-DCMAKE_LIBRARY_PATH=$(DEB_HOST_MULTIARCH)
 
 override_dh_install:
-	-env
 	dh_install --list-missing
 	cp debian/build_dhcpd.conf debian/opennetadmin-plugin-build-isc-dhcp/etc/opennetadmin
