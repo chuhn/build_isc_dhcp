@@ -1,7 +1,7 @@
 Source: opennetadmin-plugin-build-isc-dhcp
 Section: unknown
 Priority: optional
-Maintainer: Christopher Huhn, GSI <C.Huhn@gsi.de>
+Maintainer: Christopher Huhn <C.Huhn@gsi.de>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.8
 Homepage: https://github.com/opennetadmin/build_isc_dhcp
